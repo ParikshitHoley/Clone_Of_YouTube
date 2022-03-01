@@ -1,0 +1,17 @@
+#navbar {
+  height: 50px;
+}
+
+#main {
+  display: flex;
+  height: 600px;
+  gap: 50px;
+}
+
+#video_details {
+  flex: 3;
+}
+
+#recomm {
+  flex: 1;
+}

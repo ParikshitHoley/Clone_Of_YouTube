@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube clone</title>
+    <link rel="stylesheet" href="./style/live.css">
+</head>
+
+<body>
+    <!-- https://cdn.svgporn.com/logos/youtube.svg     yt logo -->
+
+    <div class="input"> </div>
+
+    <div class="result">
+
+        <div>
+
+        </div>
+
+        <div class="verticalBar">
+
+            <img src="https://img.icons8.com/?id=83326&size=2x&color=000000" alt="">
+            <img src="https://img.icons8.com/?id=88004&size=2x&color=000000" alt="">
+            <img src="https://img.icons8.com/?id=111348&size=2x&color=000000" alt="">
+            <img src="https://img.icons8.com/?id=EjzhTCohmtzn&size=2x&color=000000" alt="">
+            <img src="https://img.icons8.com/?id=23030&size=2x&color=000000" alt="">
+
+        </div>
+
+        <div id="search_results"></div>
+
+    </div>
+
+</body>
+
+</html>
+
+<script type="module">
+    import { navbar } from "/components/navbar.js"
+    let showDiv = document.querySelector(".input");
+    showDiv.innerHTML = navbar();
+</script>
+
+<script src="./script/live.js"></script>
